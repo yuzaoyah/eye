@@ -1,0 +1,98 @@
+[
+  {
+    "desc": "Bilibili",
+    "url": "https://www.bilibili.com/",
+    "icon": "icon.jpg",
+    "alt": "Bilibili"
+  },
+  {
+    "desc": "豆瓣",
+    "url": "https://www.douban.com/",
+    "icon": "icon.jpg",
+    "alt": "豆瓣"
+  },
+  {
+    "desc": "豆瓣电影",
+    "url": "https://movie.douban.com/",
+    "icon": "icon.jpg",
+    "alt": "豆瓣电影"
+  },
+  {
+    "desc": "CSDN个人页",
+    "url": "https://blog.csdn.net/UZDW_",
+    "icon": "icon.jpg",
+    "alt": "CSDN"
+  },
+  {
+    "desc": "GitHub",
+    "url": "https://github.com/",
+    "icon": "icon.jpg",
+    "alt": "GitHub"
+  },
+  {
+    "desc": "LeetCode",
+    "url": "https://leetcode.com/",
+    "icon": "icon.jpg",
+    "alt": "LeetCode"
+  },
+  {
+    "desc": "力扣",
+    "url": "https://leetcode.cn/",
+    "icon": "icon.jpg",
+    "alt": "力扣"
+  },
+  {
+    "desc": "什么值得读",
+    "url": "https://shenmezhidedu.com/",
+    "icon": "icon.jpg",
+    "alt": "什么值得读"
+  },
+  {
+    "desc": "百度翻译",
+    "url": "https://fanyi.baidu.com/mtpe-individual/multimodal#/",
+    "icon": "icon.jpg",
+    "alt": "百度翻译"
+  },
+  {
+    "desc": "毛泽东",
+    "url": "http://www.mzdbl.cn/maoxuan.html",
+    "icon": "icon.jpg",
+    "alt": "毛泽东"
+  },
+  {
+    "desc": "ChatGPT",
+    "url": "https://chat.openai.com/auth/login",
+    "icon": "icon.jpg",
+    "alt": "ChatGPT"
+  },
+  {
+    "desc": "人人都是产品经理",
+    "url": "https://www.woshipm.com/",
+    "icon": "icon.jpg",
+    "alt": "人人都是产品经理"
+  },
+  {
+    "desc": "CCTV4",
+    "url": "https://tv.cctv.com/live/cctv4/",
+    "icon": "icon.jpg",
+    "alt": "CCTV4"
+  },
+  {
+    "desc": "世界各国网址大全",
+    "url": "https://www.world68.com/country.asp",
+    "icon": "icon.jpg",
+    "alt": "世界各国网址大全"
+  },
+  {
+    "desc": "YouTube",
+    "url": "https://www.youtube.com",
+    "icon": "icon.jpg",
+    "alt": "YouTube"
+  },
+  {
+    "desc": "华尔街日报",
+    "url": "https://www.wsj.com/",
+    "icon": "icon.jpg",
+    "alt": "华尔街日报"
+  }
+]
