@@ -42,6 +42,13 @@ document.addEventListener("DOMContentLoaded", function () {
       window.open(searchUrl, "_blank");
     }
   });
+  
+  // 为搜索输入框添加键盘事件，按回车时进行搜索
+  searchInput.addEventListener("keydown", function (event) {
+    if (event.key === 'Enter') {
+        searchBtn.click();
+    }
+  });
 
   // Save selected search engine to storage when changed
   searchEngine.addEventListener("change", function () {
