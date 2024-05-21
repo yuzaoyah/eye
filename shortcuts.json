@@ -94,5 +94,11 @@
     "url": "https://www.wsj.com/",
     "icon": "https://s.wsj.net/img/meta/wsj_favicon.svg",
     "alt": "华尔街日报"
+  },
+  {
+    "desc": "予早 Blog",
+    "url": "https://grassselfl.github.io/yuzao/",
+    "icon": "icon.jpg",
+    "alt": "予早 Blog"
   }
 ]
