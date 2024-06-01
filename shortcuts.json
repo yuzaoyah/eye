@@ -56,7 +56,7 @@
   {
     "desc": "毛泽东",
     "url": "http://www.mzdbl.cn/maoxuan.html",
-    "icon": "icon.jpg",
+    "icon": "img/mao.gif",
     "alt": "毛泽东"
   },
   {
@@ -64,6 +64,12 @@
     "url": "https://chat.openai.com/auth/login",
     "icon": "https://cdn.oaistatic.com/_next/static/media/favicon-32x32.be48395e.png",
     "alt": "ChatGPT"
+  },
+  {
+    "desc": "Kimi",
+    "url": "https://kimi.moonshot.cn/",
+    "icon": "https://statics.moonshot.cn/kimi-chat/favicon.ico",
+    "alt": "Kimi"
   },
   {
     "desc": "人人都是产品经理",
@@ -97,8 +103,8 @@
   },
   {
     "desc": "予早 Blog",
-    "url": "https://grassselfl.github.io/yuzao/",
-    "icon": "icon.jpg",
+    "url": "https://yuzaoyah.github.io/yuzaoyah/",
+    "icon": "img/yuzaoyah.jpg",
     "alt": "予早 Blog"
   }
 ]
