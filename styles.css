@@ -4,6 +4,7 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
+  background: url('img/be-brave.png') no-repeat center center;
 }
 
 .search-container {
@@ -23,7 +24,7 @@ button {
   font-size: 16px;
   cursor: pointer;
   border: none;
-  background-color: #007bff;
+  background-color: #6763ab;
   color: #fff;
   border-radius: 5px;
 }

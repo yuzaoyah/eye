@@ -3,108 +3,133 @@
     "desc": "Bilibili",
     "url": "https://www.bilibili.com/",
     "icon": "img/bilibili-favicon.ico",
-    "alt": "Bilibili"
+    "alt": "Bilibili",
+	"hide": false
   },
   {
     "desc": "豆瓣",
     "url": "https://www.douban.com/",
     "icon": "https://img1.doubanio.com/favicon.ico",
-    "alt": "豆瓣"
+    "alt": "豆瓣",
+	"hide": false
   },
   {
     "desc": "豆瓣电影",
     "url": "https://movie.douban.com/",
     "icon": "https://img1.doubanio.com/favicon.ico",
-    "alt": "豆瓣电影"
+    "alt": "豆瓣电影",
+	"hide": false
   },
   {
     "desc": "CSDN个人页",
     "url": "https://blog.csdn.net/UZDW_",
     "icon": "https://g.csdnimg.cn/static/logo/favicon32.ico",
-    "alt": "CSDN"
+    "alt": "CSDN",
+	"hide": false
   },
   {
     "desc": "GitHub",
     "url": "https://github.com/",
     "icon": "https://github.githubassets.com/favicons/favicon.png",
-    "alt": "GitHub"
+    "alt": "GitHub",
+	"hide": false
   },
   {
     "desc": "LeetCode",
     "url": "https://leetcode.com/",
     "icon": "https://assets.leetcode.cn/aliyun-lc-upload/uploaded_files/2021/03/73c9f099-abbe-4d94-853f-f8abffd459cd/leetcode.png?x-oss-process=image%2Fformat%2Cwebp",
-    "alt": "LeetCode"
+    "alt": "LeetCode",
+	"hide": false
   },
   {
     "desc": "力扣",
     "url": "https://leetcode.cn/",
     "icon": "https://assets.leetcode.cn/aliyun-lc-upload/uploaded_files/2021/03/73c9f099-abbe-4d94-853f-f8abffd459cd/leetcode.png?x-oss-process=image%2Fformat%2Cwebp",
-    "alt": "力扣"
+    "alt": "力扣",
+	"hide": false
   },
   {
     "desc": "什么值得读",
     "url": "https://shenmezhidedu.com/",
     "icon": "https://www.shenmezhidedu.com/wp-content/uploads/2020/02/cropped-2020022005321023-32x32.png",
-    "alt": "什么值得读"
+    "alt": "什么值得读",
+	"hide": true
   },
   {
     "desc": "百度翻译",
     "url": "https://fanyi.baidu.com/mtpe-individual/multimodal#/",
     "icon": "https://fanyi.baidu.com/favicon.ico",
-    "alt": "百度翻译"
+    "alt": "百度翻译",
+	"hide": false
   },
   {
     "desc": "毛泽东",
     "url": "http://www.mzdbl.cn/maoxuan.html",
     "icon": "img/mao.gif",
-    "alt": "毛泽东"
+    "alt": "毛泽东",
+	"hide": false
   },
   {
     "desc": "ChatGPT",
     "url": "https://chat.openai.com/auth/login",
     "icon": "https://cdn.oaistatic.com/_next/static/media/favicon-32x32.be48395e.png",
-    "alt": "ChatGPT"
+    "alt": "ChatGPT",
+	"hide": false
   },
   {
     "desc": "Kimi",
     "url": "https://kimi.moonshot.cn/",
     "icon": "https://statics.moonshot.cn/kimi-chat/favicon.ico",
-    "alt": "Kimi"
+    "alt": "Kimi",
+	"hide": false
   },
   {
     "desc": "人人都是产品经理",
     "url": "https://www.woshipm.com/",
     "icon": "https://image.woshipm.com/favicon.ico",
-    "alt": "人人都是产品经理"
+    "alt": "人人都是产品经理",
+	"hide": false
   },
   {
     "desc": "CCTV4",
     "url": "https://tv.cctv.com/live/cctv4/",
     "icon": "https://p1.img.cctvpic.com/photoAlbum/templet/common/DEPA1652643499621200/mapLogo.png",
-    "alt": "CCTV4"
+    "alt": "CCTV4",
+	"hide": false
   },
   {
     "desc": "世界各国网址大全",
     "url": "https://www.world68.com/country.asp",
     "icon": "https://www.world68.com/images/logo.png",
-    "alt": "世界各国网址大全"
+    "alt": "世界各国网址大全",
+	"hide": false
   },
   {
     "desc": "YouTube",
     "url": "https://www.youtube.com",
     "icon": "https://www.youtube.com/s/desktop/3db4422d/img/favicon.ico",
-    "alt": "YouTube"
+    "alt": "YouTube",
+	"hide": false
   },
   {
     "desc": "华尔街日报",
     "url": "https://www.wsj.com/",
     "icon": "https://s.wsj.net/img/meta/wsj_favicon.svg",
-    "alt": "华尔街日报"
+    "alt": "华尔街日报",
+	"hide": false
   },
   {
     "desc": "予早 Blog",
     "url": "https://yuzaoyah.github.io/yuzaoyah/",
     "icon": "img/yuzaoyah.jpg",
-    "alt": "予早 Blog"
+    "alt": "予早 Blog",
+	"hide": false
+  },
+  {
+    "desc": "课题",
+    "url": "https://pck9as038u.feishu.cn/docx/JUxmdlVPMo3N5FxSX67cRlounTd",
+    "icon": "img/book.jpg",
+    "alt": "课题",
+	"hide": false
   }
 ]

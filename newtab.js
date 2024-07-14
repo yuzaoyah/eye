@@ -9,6 +9,9 @@ document.addEventListener("DOMContentLoaded", function () {
     .then((response) => response.json())
     .then((data) => {
       data.forEach((shortcut) => {
+        if (shortcut.hide) {
+          return;
+        }
         var div = document.createElement("div"); // 创建一个 div 元素用于包含图标和描述
         var a = document.createElement("a");
         var img = document.createElement("img");
@@ -42,11 +45,11 @@ document.addEventListener("DOMContentLoaded", function () {
       window.open(searchUrl, "_blank");
     }
   });
-  
+
   // 为搜索输入框添加键盘事件，按回车时进行搜索
   searchInput.addEventListener("keydown", function (event) {
-    if (event.key === 'Enter') {
-        searchBtn.click();
+    if (event.key === "Enter") {
+      searchBtn.click();
     }
   });
 
