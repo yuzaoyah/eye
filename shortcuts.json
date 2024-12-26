@@ -1,5 +1,14 @@
 [
   {
+    "desc": "dazidazi",
+    "url": "https://dazidazi.com/",
+    "icon": "img/dazidazi-favicon.ico",
+    "alt": "dazidazi",
+	"hide": false
+  },
+
+
+  {
     "desc": "Bilibili",
     "url": "https://www.bilibili.com/",
     "icon": "img/bilibili-favicon.ico",
@@ -130,6 +139,23 @@
     "url": "https://pck9as038u.feishu.cn/docx/JUxmdlVPMo3N5FxSX67cRlounTd",
     "icon": "img/book.jpg",
     "alt": "课题",
+	"hide": false
+  },
+
+
+
+    {
+    "desc": "荣顶",
+    "url": "https://www.fedtop.com",
+    "icon": "img/book.jpg",
+    "alt": "荣顶",
+	"hide": false
+  },
+    {
+    "desc": "竹山一叶",
+    "url": "https://zsyyblog.com/",
+    "icon": "img/book.jpg",
+    "alt": "竹山一叶",
 	"hide": false
   }
 ]
