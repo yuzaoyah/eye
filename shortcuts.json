@@ -18,14 +18,14 @@
   {
     "desc": "豆瓣",
     "url": "https://www.douban.com/",
-    "icon": "https://img1.doubanio.com/favicon.ico",
+    "icon": "img/douban_favicon.ico",
     "alt": "豆瓣",
 	"hide": false
   },
   {
     "desc": "豆瓣电影",
     "url": "https://movie.douban.com/",
-    "icon": "https://img1.doubanio.com/favicon.ico",
+    "icon": "img/douban_favicon.ico",
     "alt": "豆瓣电影",
 	"hide": false
   },
