@@ -157,5 +157,19 @@
     "icon": "img/book.jpg",
     "alt": "竹山一叶",
 	"hide": false
+  },
+    {
+    "desc": "腾讯元宝",
+    "url": "https://yuanbao.tencent.com/",
+    "icon": "https://static.yuanbao.tencent.com/modern/_next/static/media/logo_light.d078142a.svg",
+    "alt": "腾讯元宝",
+	"hide": false
+  },
+  {
+    "desc": "豆包",
+    "url": "https://www.doubao.com/",
+    "icon": "https://lf-flow-web-cdn.doubao.com/obj/flow-doubao/samantha/logo-icon-white-bg.png",
+    "alt": "豆包",
+	"hide": false
   }
 ]
