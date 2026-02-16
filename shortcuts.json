@@ -1,175 +1,553 @@
 [
   {
+    "type": "link",
+    "desc": "Lost? Just do!",
+    "url": "https://pck9as038u.feishu.cn/docx/VE2Jdq24porD1Mxko9ocVMZEnud",
+    "icon": "img/ico/do_v1.png",
+    "alt": "Lost? Just do!",
+    "hide": false
+  },
+  {
+    "type": "link",
+    "desc": "时间计划表",
+    "url": "https://pck9as038u.feishu.cn/base/ISxxblbfkafwlDsS2MLcWjJ3nie?table=tblWXJN4guv6xia7&view=vewr1BAhYV",
+    "icon": "img/ico/default/icon_v2.png",
+    "alt": "时间计划表",
+    "hide": false
+  },
+  {
+    "type": "dir",
+    "name": "聚合热点排行榜",
+    "hide": false,
+    "shortcuts": [
+      {
+        "type": "link",
+        "desc": "今日热榜",
+        "url": "https://tophub.today/",
+        "icon": "img/ico/tophub.png",
+        "alt": "今日热榜",
+        "hide": false
+      },
+      {
+        "type": "link",
+        "desc": "GitHub 趋势",
+        "url": "https://github.com/trending",
+        "icon": "img/ico/default/icon_v2.png",
+        "alt": "GitHub 趋势",
+        "hide": false
+      },
+      {
+        "type": "link",
+        "desc": "HelloGitHub",
+        "url": "https://github.com/521xueweihan/HelloGitHub",
+        "icon": "img/ico/default/icon_v2.png",
+        "alt": "HelloGitHub",
+        "hide": false
+      },
+      {
+        "type": "link",
+        "desc": "果汁排行榜",
+        "url": "http://www.guozhivip.com/rank/index.html",
+        "icon": "img/ico/default/icon_v2.png",
+        "alt": "果汁排行榜",
+        "hide": false
+      },
+      {
+        "type": "link",
+        "desc": "HelloGitHub",
+        "url": "https://github.com/521xueweihan/HelloGitHub",
+        "icon": "img/ico/default/icon_v2.png",
+        "alt": "HelloGitHub",
+        "hide": false
+      },
+      {
+        "type": "link",
+        "desc": "导航文库",
+        "url": "https://docs.apachecn.org/",
+        "icon": "img/ico/default/icon_v2.png",
+        "alt": "导航文库",
+        "hide": false
+      },
+      {
+        "type": "link",
+        "desc": "Jupyter AI",
+        "url": "https://zglg.work",
+        "icon": "img/ico/default/icon_v2.png",
+        "alt": "Jupyter AI",
+        "hide": false
+      },
+      {
+        "type": "link",
+        "desc": "小报童精选",
+        "url": "https://www.dafeiyang.cn/xbt/",
+        "icon": "img/ico/default/icon_v2.png",
+        "alt": "小报童精选",
+        "hide": false
+      }
+    ]
+  },
+  {
+    "type": "dir",
+    "name": "问答",
+    "hide": false,
+    "shortcuts": [
+      {
+        "desc": "虫部落",
+        "url": "https://www.chongbuluo.com/",
+        "icon": "img/ico/default/icon_v2.png",
+        "alt": "虫部落",
+        "hide": false
+      },
+      {
+        "desc": "wikiHow",
+        "url": "https://zh.wikihow.com/",
+        "icon": "img/ico/default/icon_v2.png",
+        "alt": "wikiHow",
+        "hide": false
+      }
+    ]
+  },
+  {
+    "type": "dir",
+    "name": "综合聚合导航",
+    "hide": false,
+    "shortcuts": [
+      {
+        "desc": "创造狮导航",
+        "url": "https://chuangzaoshi.com/index",
+        "icon": "img/ico/default/icon_v6.png",
+        "alt": "创造狮导航",
+        "hide": false
+      },
+      {
+        "desc": "产品经理导航",
+        "url": "https://www.pmbaobao.com/",
+        "icon": "img/ico/default/icon_v6.png",
+        "alt": "产品经理导航",
+        "hide": false
+      },
+      {
+        "desc": "学吧导航",
+        "url": "https://www.xue8nav.com/",
+        "icon": "img/ico/default/icon_v6.png",
+        "alt": "学吧导航",
+        "hide": false
+      },
+      {
+        "desc": "AIGO 工具导航",
+        "url": "https://www.aigc.cn/",
+        "icon": "img/ico/aigc_cn_logo.png",
+        "alt": "AIGO 工具导航",
+        "hide": false
+      },
+      {
+        "desc": "addog",
+        "url": "https://www.addog.vip/",
+        "icon": "img/ico/default/icon_v6.png",
+        "alt": "addog",
+        "hide": false
+      }
+    ]
+  },
+  {
+    "type": "dir",
+    "name": "邮件",
+    "hide": false,
+    "shortcuts": [
+      {
+        "desc": "163",
+        "url": "https://mail.163.com/",
+        "icon": "img/ico/default/icon_v8.png",
+        "alt": "163",
+        "hide": false
+      },
+      {
+        "desc": "yeah",
+        "url": "https://www.yeah.net/",
+        "icon": "img/ico/default/icon_v8.png",
+        "alt": "yeah",
+        "hide": false
+      },
+      {
+        "desc": "临时邮箱",
+        "url": "https://www.linshi-email.com/",
+        "icon": "img/ico/default/icon_v8.png",
+        "alt": "临时邮箱",
+        "hide": false
+      }
+    ]
+  },
+  {
+    "type": "dir",
+    "name": "ACG",
+    "hide": false,
+    "shortcuts": [
+      {
+        "desc": "阿里云",
+        "url": "https://www.b-ch.com/",
+        "icon": "img/ico/default/icon_v2.png",
+        "alt": "aliyun",
+        "hide": false
+      },
+      {
+        "desc": "青云",
+        "url": "https://www.qingcloud.com/",
+        "icon": "img/ico/qingyun.ico",
+        "alt": "qingyun",
+        "hide": false
+      },
+      {
+        "desc": "raksmart",
+        "url": "https://www.raksmart.com/",
+        "icon": "img/ico/raksmart.png",
+        "alt": "raksmart",
+        "hide": false
+      }
+    ]
+  },
+  {
+    "type": "link",
     "desc": "dazidazi",
     "url": "https://dazidazi.com/",
-    "icon": "img/dazidazi-favicon.ico",
+    "icon": "img/ico/dazidazi-favicon.ico",
     "alt": "dazidazi",
-	"hide": false
+    "hide": false
   },
-
-
   {
+    "type": "link",
     "desc": "Bilibili",
     "url": "https://www.bilibili.com/",
-    "icon": "img/bilibili-favicon.ico",
+    "icon": "img/ico/bilibili-favicon.ico",
     "alt": "Bilibili",
-	"hide": false
+    "hide": false
   },
   {
+    "type": "link",
     "desc": "豆瓣",
     "url": "https://www.douban.com/",
-    "icon": "img/douban_favicon.ico",
+    "icon": "img/ico/douban_favicon.ico",
     "alt": "豆瓣",
-	"hide": false
+    "hide": false
   },
   {
+    "type": "link",
     "desc": "豆瓣电影",
     "url": "https://movie.douban.com/",
-    "icon": "img/douban_favicon.ico",
+    "icon": "img/ico/douban_favicon.ico",
     "alt": "豆瓣电影",
-	"hide": false
+    "hide": false
   },
   {
+    "type": "link",
     "desc": "CSDN个人页",
     "url": "https://blog.csdn.net/UZDW_",
     "icon": "https://g.csdnimg.cn/static/logo/favicon32.ico",
     "alt": "CSDN",
-	"hide": false
+    "hide": false
   },
   {
+    "type": "link",
     "desc": "GitHub",
     "url": "https://github.com/",
     "icon": "https://github.githubassets.com/favicons/favicon.png",
     "alt": "GitHub",
-	"hide": false
+    "hide": false
   },
   {
-    "desc": "LeetCode",
-    "url": "https://leetcode.com/",
-    "icon": "https://assets.leetcode.cn/aliyun-lc-upload/uploaded_files/2021/03/73c9f099-abbe-4d94-853f-f8abffd459cd/leetcode.png?x-oss-process=image%2Fformat%2Cwebp",
-    "alt": "LeetCode",
-	"hide": false
-  },
-  {
+    "type": "link",
     "desc": "力扣",
     "url": "https://leetcode.cn/",
     "icon": "https://assets.leetcode.cn/aliyun-lc-upload/uploaded_files/2021/03/73c9f099-abbe-4d94-853f-f8abffd459cd/leetcode.png?x-oss-process=image%2Fformat%2Cwebp",
     "alt": "力扣",
-	"hide": false
+    "hide": false
   },
   {
+    "type": "link",
     "desc": "什么值得读",
     "url": "https://shenmezhidedu.com/",
     "icon": "https://www.shenmezhidedu.com/wp-content/uploads/2020/02/cropped-2020022005321023-32x32.png",
     "alt": "什么值得读",
-	"hide": true
+    "hide": true
   },
   {
+    "type": "link",
     "desc": "百度翻译",
     "url": "https://fanyi.baidu.com/mtpe-individual/multimodal#/",
     "icon": "https://fanyi.baidu.com/favicon.ico",
     "alt": "百度翻译",
-	"hide": false
+    "hide": false
   },
   {
+    "type": "link",
     "desc": "毛泽东",
     "url": "http://www.mzdbl.cn/maoxuan.html",
-    "icon": "img/mao.gif",
+    "icon": "img/ico/mao.gif",
     "alt": "毛泽东",
-	"hide": false
+    "hide": false
   },
   {
+    "type": "link",
     "desc": "ChatGPT",
     "url": "https://chat.openai.com/auth/login",
     "icon": "https://cdn.oaistatic.com/_next/static/media/favicon-32x32.be48395e.png",
     "alt": "ChatGPT",
-	"hide": false
+    "hide": false
   },
   {
+    "type": "link",
     "desc": "Kimi",
     "url": "https://kimi.moonshot.cn/",
     "icon": "https://statics.moonshot.cn/kimi-chat/favicon.ico",
     "alt": "Kimi",
-	"hide": false
+    "hide": false
   },
   {
-    "desc": "人人都是产品经理",
-    "url": "https://www.woshipm.com/",
-    "icon": "https://image.woshipm.com/favicon.ico",
-    "alt": "人人都是产品经理",
-	"hide": false
-  },
-  {
-    "desc": "CCTV4",
-    "url": "https://tv.cctv.com/live/cctv4/",
-    "icon": "https://p1.img.cctvpic.com/photoAlbum/templet/common/DEPA1652643499621200/mapLogo.png",
-    "alt": "CCTV4",
-	"hide": false
-  },
-  {
-    "desc": "世界各国网址大全",
-    "url": "https://www.world68.com/country.asp",
-    "icon": "https://www.world68.com/images/logo.png",
-    "alt": "世界各国网址大全",
-	"hide": false
-  },
-  {
-    "desc": "YouTube",
-    "url": "https://www.youtube.com",
-    "icon": "https://www.youtube.com/s/desktop/3db4422d/img/favicon.ico",
-    "alt": "YouTube",
-	"hide": false
-  },
-  {
-    "desc": "华尔街日报",
-    "url": "https://www.wsj.com/",
-    "icon": "https://s.wsj.net/img/meta/wsj_favicon.svg",
-    "alt": "华尔街日报",
-	"hide": false
-  },
-  {
-    "desc": "予早 Blog",
-    "url": "https://yuzaoyah.github.io/yuzaoyah/",
-    "icon": "img/yuzaoyah.jpg",
-    "alt": "予早 Blog",
-	"hide": false
-  },
-  {
-    "desc": "课题",
-    "url": "https://pck9as038u.feishu.cn/docx/JUxmdlVPMo3N5FxSX67cRlounTd",
-    "icon": "img/book.jpg",
-    "alt": "课题",
-	"hide": false
-  },
-
-
-
-    {
-    "desc": "荣顶",
-    "url": "https://www.fedtop.com",
-    "icon": "img/book.jpg",
-    "alt": "荣顶",
-	"hide": false
-  },
-    {
-    "desc": "竹山一叶",
-    "url": "https://zsyyblog.com/",
-    "icon": "img/book.jpg",
-    "alt": "竹山一叶",
-	"hide": false
-  },
-    {
+    "type": "link",
     "desc": "腾讯元宝",
     "url": "https://yuanbao.tencent.com/",
     "icon": "https://static.yuanbao.tencent.com/modern/_next/static/media/logo_light.d078142a.svg",
     "alt": "腾讯元宝",
-	"hide": false
+    "hide": false
   },
   {
+    "type": "link",
     "desc": "豆包",
     "url": "https://www.doubao.com/",
     "icon": "https://lf-flow-web-cdn.doubao.com/obj/flow-doubao/samantha/logo-icon-white-bg.png",
     "alt": "豆包",
-	"hide": false
+    "hide": false
+  },
+  {
+    "type": "link",
+    "desc": "人人都是产品经理",
+    "url": "https://www.woshipm.com/",
+    "icon": "https://image.woshipm.com/favicon.ico",
+    "alt": "人人都是产品经理",
+    "hide": false
+  },
+  {
+    "type": "link",
+    "desc": "CCTV4",
+    "url": "https://tv.cctv.com/live/cctv4/",
+    "icon": "img/ico/cctv_favicon.ico",
+    "alt": "CCTV4",
+    "hide": false
+  },
+  {
+    "type": "link",
+    "desc": "世界各国网址大全",
+    "url": "https://www.world68.com/country.asp",
+    "icon": "img/ico/world68_favicon.ico",
+    "alt": "世界各国网址大全",
+    "hide": false
+  },
+  {
+    "type": "link",
+    "desc": "YouTube",
+    "url": "https://www.youtube.com",
+    "icon": "https://www.youtube.com/s/desktop/3db4422d/img/favicon.ico",
+    "alt": "YouTube",
+    "hide": false
+  },
+  {
+    "type": "link",
+    "desc": "华尔街日报",
+    "url": "https://www.wsj.com/",
+    "icon": "https://s.wsj.net/img/meta/wsj_favicon.svg",
+    "alt": "华尔街日报",
+    "hide": false
+  },
+  {
+    "type": "link",
+    "desc": "予早 Blog",
+    "url": "https://me.yuzaoyah.site",
+    "icon": "img/ico/yuzaoyah.jpg",
+    "alt": "予早 Blog",
+    "hide": false
+  },
+  {
+    "type": "link",
+    "desc": "课题",
+    "url": "https://pck9as038u.feishu.cn/docx/JUxmdlVPMo3N5FxSX67cRlounTd",
+    "icon": "img/ico/book.jpg",
+    "alt": "课题",
+    "hide": false
+  },
+  {
+    "type": "link",
+    "desc": "荣顶",
+    "url": "https://www.fedtop.com",
+    "icon": "img/ico/book.jpg",
+    "alt": "荣顶",
+    "hide": false
+  },
+  {
+    "type": "link",
+    "desc": "竹山一叶",
+    "url": "https://zsyyblog.com/",
+    "icon": "img/ico/book.jpg",
+    "alt": "竹山一叶",
+    "hide": false
+  },
+  {
+    "type": "dir",
+    "name": "懂点法",
+    "hide": false,
+    "shortcuts": [
+      {
+        "desc": "中华人民共和国社会保险法",
+        "url": "https://www.gov.cn/flfg/2010-10/28/content_1732964.htm",
+        "icon": "img/ico/default/icon_v2.png",
+        "alt": "中华人民共和国社会保险法",
+        "hide": false
+      },
+      {
+        "desc": "中华人民共和国劳动合同法",
+        "url": "https://www.gov.cn/jrzg/2007-06/29/content_667720.htm",
+        "icon": "img/ico/default/icon_v2.png",
+        "alt": "中华人民共和国劳动合同法",
+        "hide": false
+      },
+      {
+        "desc": "中国法律服务网",
+        "url": "https://www.12348.gov.cn/",
+        "icon": "img/ico/default/icon_v2.png",
+        "alt": "中国法律服务网",
+        "hide": false
+      }
+    ]
+  },
+  {
+    "type": "dir",
+    "name": "问答",
+    "hide": false,
+    "shortcuts": [
+      {
+        "desc": "虫部落",
+        "url": "https://www.chongbuluo.com/",
+        "icon": "img/ico/default/icon_v2.png",
+        "alt": "虫部落",
+        "hide": false
+      },
+      {
+        "desc": "wikiHow",
+        "url": "https://zh.wikihow.com/",
+        "icon": "img/ico/default/icon_v2.png",
+        "alt": "wikiHow",
+        "hide": false
+      }
+    ]
+  },
+  {
+    "type": "dir",
+    "name": "小工具",
+    "hide": false,
+    "shortcuts": [
+      {
+        "desc": "阿里巴巴矢量图标",
+        "url": "https://www.iconfont.cn/",
+        "icon": "img/ico/default/icon_v2.png",
+        "alt": "阿里巴巴矢量图标",
+        "hide": false
+      },
+      {
+        "desc": "接码平台",
+        "url": "https://sms-activate.guru/cn",
+        "icon": "img/ico/default/icon_v2.png",
+        "alt": "接码平台",
+        "hide": false
+      },
+      {
+        "desc": "词云文字制作",
+        "url": "https://www.ciyunwenzi.com/web/ciyun",
+        "icon": "img/ico/default/icon_v2.png",
+        "alt": "词云文字制作",
+        "hide": false
+      },
+      {
+        "desc": "易制地图",
+        "url": "https://www.makeamap.cn/index.html",
+        "icon": "img/ico/default/icon_v2.png",
+        "alt": "接码平台",
+        "hide": false
+      },
+      {
+        "desc": "Midjourney",
+        "url": "https://docs.midjourney.com/",
+        "icon": "img/ico/default/icon_v2.png",
+        "alt": "Midjourney",
+        "hide": false
+      },
+      {
+        "desc": "ChatPDF",
+        "url": "https://www.chatpdf.com/zh",
+        "icon": "img/ico/default/icon_v2.png",
+        "alt": "ChatPDF",
+        "hide": false
+      },
+      {
+        "desc": "文本共享",
+        "url": "https://pasteme.cn/",
+        "icon": "img/ico/default/icon_v2.png",
+        "alt": "文本共享",
+        "hide": false
+      },
+      {
+        "desc": "Logo设计",
+        "url": "https://www.logoko.com.cn/",
+        "icon": "img/ico/default/icon_v2.png",
+        "alt": "Logo设计",
+        "hide": false
+      },
+      {
+        "desc": "SimilarWeb",
+        "url": "https://www.similarweb.com/",
+        "icon": "img/ico/default/icon_v3.png",
+        "alt": "SimilarWeb",
+        "hide": false
+      },
+      {
+        "desc": "轻松传",
+        "url": "https://easychuan.cn/",
+        "icon": "img/ico/default/icon_v5.png",
+        "alt": "轻松传",
+        "hide": false
+      },
+      {
+        "desc": "剑桥字典",
+        "url": "https://dictionary.cambridge.org/",
+        "icon": "img/ico/default/icon_v5.png",
+        "alt": "剑桥字典",
+        "hide": false
+      },
+      {
+        "desc": "状态转换可视化",
+        "url": "https://stately.ai/viz",
+        "icon": "img/ico/default/icon_v5.png",
+        "alt": "状态转换可视化",
+        "hide": false
+      },
+      {
+        "desc": "贝贝下载",
+        "url": "https://bbdownloader.com/api/bilibili/",
+        "icon": "img/ico/default/icon_v5.png",
+        "alt": "贝贝下载",
+        "hide": false
+      },
+      {
+        "desc": "avast密码生成",
+        "url": "https://www.avast.com/zh-cn/random-password-generator",
+        "icon": "img/ico/default/icon_v5.png",
+        "alt": "avast密码生成",
+        "hide": false
+      },
+      {
+        "desc": "GitHub Cards",
+        "url": "https://github.cards/",
+        "icon": "img/ico/github_cards.png",
+        "alt": "GitHub Cards",
+        "hide": false
+      }
+    ]
   }
 ]

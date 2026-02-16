@@ -1,42 +1,22 @@
 document.addEventListener("DOMContentLoaded", function () {
+  searchInit()
+  shortcutInit()
+
+
+});
+// 点击模态框外部也关闭模态框
+window.onclick = function (event) {
+  modal = document.getElementById("shortcut-item-expand-list")
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+// 初始化搜索框
+function searchInit() {
   var searchBtn = document.getElementById("searchBtn");
   var searchInput = document.getElementById("searchInput");
   var searchEngine = document.getElementById("searchEngine");
-  var shortcutIconsContainer = document.getElementById("shortcutIcons");
-
-  // Load shortcuts from JSON file
-  fetch("shortcuts.json")
-    .then((response) => response.json())
-    .then((data) => {
-      data.forEach((shortcut) => {
-        if (shortcut.hide) {
-          return;
-        }
-        var div = document.createElement("div"); // 创建一个 div 元素用于包含图标和描述
-        var a = document.createElement("a");
-        var img = document.createElement("img");
-        var p = document.createElement("p"); // 创建一个 p 元素用于文字描述
-        var flexContainer = document.createElement("div"); // 创建一个用于包含图标和文字的 Flex 容器
-        a.href = shortcut.url;
-        a.target = "_blank";
-        img.src = shortcut.icon;
-        img.alt = shortcut.alt;
-        a.appendChild(img);
-        p.textContent = shortcut.desc; // 设置 p 元素的文字描述
-        p.style.textAlign = "center"; // 设置文字居中
-        p.style.wordWrap = "break-word"; // 设置自动换行
-        flexContainer.style.display = "flex"; // 设置 Flexbox 布局
-        flexContainer.style.flexDirection = "column"; // 垂直方向布局
-        flexContainer.style.alignItems = "center"; // 居中对齐
-        flexContainer.style.width = "66px"; // 设置 Flex 容器宽度为100%
-        flexContainer.appendChild(a); // 将图标链接添加到 Flex 容器中
-        flexContainer.appendChild(p); // 将 p 元素添加到 Flex 容器中
-        div.appendChild(flexContainer); // 将 Flex 容器添加到 div 中
-        shortcutIconsContainer.appendChild(div); // 将包含图标和描述的 div 添加到容器中
-      });
-    })
-    .catch((error) => console.error("Error loading shortcuts:", error));
-
   searchBtn.addEventListener("click", function () {
     var query = searchInput.value;
     var engine = searchEngine.value;
@@ -53,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
-  // Save selected search engine to storage when changed
+  // 切换搜索引擎时保存该选择
   searchEngine.addEventListener("change", function () {
     var selectedEngine = searchEngine.value;
     chrome.storage.sync.set({ searchEngine: selectedEngine });
@@ -65,4 +45,111 @@ document.addEventListener("DOMContentLoaded", function () {
       searchEngine.value = data.searchEngine;
     }
   });
-});
+}
+
+
+
+function shortcutInit() {
+  var shortcutContainer = document.getElementById("shortcut-container");
+
+  // 从JSON文件中加载快捷图标
+  fetch("shortcuts.json")
+    .then((response) => response.json())
+    .then((data) => {
+      data.forEach((item) => {
+        if (item.hide) {
+          return;
+        }
+
+        if (item.type != "dir") {
+          div = createShortcutItem(item);
+        } else {
+          div = createShortcutItemDir(item)
+        }
+        shortcutContainer.appendChild(div);
+      });
+    })
+    .catch((error) => console.error("加载快捷图标错误：", error));
+}
+
+
+function createShortcutItem(shortcut) {
+  // 图标
+  var img = document.createElement("img");
+  img.className = "shortcut-img"
+  img.src = shortcut.icon;
+  img.alt = shortcut.alt;
+
+  // 链接
+  var a = document.createElement("a");
+  a.href = shortcut.url;
+  a.target = "_blank";
+  a.appendChild(img);
+
+  // 图标容器
+  var imgContainer = document.createElement("div");
+  imgContainer.className = "shortcut-img-container"
+  imgContainer.appendChild(a)
+
+  // 描述容器
+  var descContainer = document.createElement("div");
+  descContainer.className = "shortcut-desc-container"
+  descContainer.textContent = shortcut.desc
+
+  // 快捷图标容器
+  var div = document.createElement("div");
+  div.className = "shortcut-item"
+  div.appendChild(imgContainer)
+  div.appendChild(descContainer)
+
+  return div
+}
+
+
+function createShortcutItemDir(shortcut) {
+  // 图片列表容器
+  var imgsContainer = document.createElement("div");
+  imgsContainer.className = "shortcut-imgs-container"
+
+  shortcut.shortcuts.slice(0, 4).forEach((item) => {
+    // 图标
+    var img = document.createElement("img");
+    img.src = item.icon;
+    img.alt = item.alt;
+    // 图标容器
+    var imgContainer = document.createElement("div");
+    imgContainer.className = "shortcut-sub-item"
+    imgContainer.appendChild(img)
+    imgsContainer.appendChild(imgContainer)
+  })
+
+  // 描述容器
+  var descContainer = document.createElement("div");
+  descContainer.className = "shortcut-desc-container"
+  descContainer.textContent = shortcut.name
+
+  // 图标文件夹容器
+  var dirContainer = document.createElement("div");
+  dirContainer.className = "shortcut-item-dir"
+  dirContainer.append(imgsContainer)
+  dirContainer.append(descContainer)
+
+  // 展开动作
+
+  dirContainer.addEventListener("click", function () {
+    var modalBody = document.querySelector(".shortcut-item-list");
+    modalBody.innerHTML = ''; // 清空模态框内容
+    // 动态添加 shortcut-item 到模态框
+    shortcut.shortcuts.forEach((item) => {
+      if (item.hide) {
+        return
+      }
+      modalBody.appendChild(createShortcutItem(item))
+    })
+    modal = document.getElementById("shortcut-item-expand-list")
+    modal.style.display = "block"
+  });
+
+
+  return dirContainer
+}

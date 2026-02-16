@@ -1,26 +1,58 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <title>Eye</title>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
-  </head>
-  <body>
-    <div class="container">
-      <div class="search-container">
-        <input type="text" id="searchInput" placeholder="open the eye..." />
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+</head>
+
+<body>
+<div class="container">
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="open the eye..."/>
         <select id="searchEngine">
-          <option value="https://www.google.com/search?q=">Google</option>
-          <option value="https://www.bing.com/search?q=">Bing</option>
-		  <option value="https://weixin.sogou.com/weixin?ie=utf8&s_from=input&_sug_=y&_sug_type_=&type=2&query=">sg_weixin</option>
-          <!-- Add more search engines as needed -->
+            <option value="https://www.google.com/search?q=">Google</option>
+            <option value="https://www.bing.com/search?q=">Bing</option>
+            <option value="https://www.bookmarkearth.cn/s/search?q=">BookMark</option>
+            <option value="https://weixin.sogou.com/weixin?ie=utf8&s_from=input&_sug_=y&_sug_type_=&type=2&query=">
+                Weixin
+            </option>
+
+            <!-- 按需添加更多搜索引擎 -->
         </select>
         <button id="searchBtn">Search</button>
-      </div>
-      <div class="shortcut-icons" id="shortcutIcons">
-        <!-- Shortcut icons will be dynamically generated here -->
-      </div>
     </div>
+    <div id="shortcut-container" class="shortcut-container">
+        <!-- <div class="shortcut-item">
+          <div class="shortcut-img-container">
+            <a href="https://blog.yuzaoyah.site"><img class="shortcut-img" src="rectangle.png" alt="Icon 1"></a>
+          </div>
+          <div class="shortcut-desc-container">666</div>
+        </div>
+        <div class="shortcut-item-dir">
+          <div class="shortcut-imgs-container">
+            <div class="shortcut-sub-item">
+              <img src="rectangle.png" alt="Icon 1">
+            </div>
+            <div class="shortcut-sub-item">
+              <img src="square.png" alt="Icon 1">
+            </div>
+            <div class="shortcut-sub-item">
+              <img src="rectangle.png" alt="Icon 1">
+            </div>
+            <div class="shortcut-sub-item">
+              <img src="rectangle.png" alt="Icon 1">
+            </div>
+          </div>
+          <div class="shortcut-desc-container">666</div>
+        </div>-->
+    </div>
+</div>
+<div id="shortcut-item-expand-list" class="shortcut-item-list-container">
+    <div class="shortcut-item-list"></div>
+</div>
 
-    <script src="newtab.js"></script>
-  </body>
+<script src="newtab.js"></script>
+</body>
+
 </html>
