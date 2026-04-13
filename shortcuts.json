@@ -190,6 +190,13 @@
         "hide": false
       },
       {
+        "desc": "优云智算",
+        "url": "https://compshare.cn/",
+        "icon": "img/ico/compshare.ico",
+        "alt": "compshare",
+        "hide": false
+      },
+      {
         "desc": "青云",
         "url": "https://www.qingcloud.com/",
         "icon": "img/ico/qingyun.ico",
