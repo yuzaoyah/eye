@@ -1,56 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 
 <head>
-    <title>Eye</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eye - 新标签页</title>
     <link rel="stylesheet" type="text/css" href="styles.css"/>
 </head>
 
 <body>
 <div class="container">
+    <!-- 搜索区域 -->
     <div class="search-container">
-        <input type="text" id="searchInput" placeholder="open the eye..."/>
+        <input type="text" id="searchInput" placeholder="搜索任何内容..."/>
         <select id="searchEngine">
             <option value="https://www.google.com/search?q=">Google</option>
             <option value="https://www.bing.com/search?q=">Bing</option>
             <option value="https://www.bookmarkearth.cn/s/search?q=">BookMark</option>
             <option value="https://weixin.sogou.com/weixin?ie=utf8&s_from=input&_sug_=y&_sug_type_=&type=2&query=">
-                Weixin
+                搜狗微信
             </option>
-
-            <!-- 按需添加更多搜索引擎 -->
         </select>
-        <button id="searchBtn">Search</button>
+        <button id="searchBtn">搜索</button>
     </div>
+
+    <!-- 快捷链接区域 -->
     <div id="shortcut-container" class="shortcut-container">
-        <!-- <div class="shortcut-item">
-          <div class="shortcut-img-container">
-            <a href="https://blog.yuzaoyah.site"><img class="shortcut-img" src="rectangle.png" alt="Icon 1"></a>
-          </div>
-          <div class="shortcut-desc-container">666</div>
-        </div>
-        <div class="shortcut-item-dir">
-          <div class="shortcut-imgs-container">
-            <div class="shortcut-sub-item">
-              <img src="rectangle.png" alt="Icon 1">
-            </div>
-            <div class="shortcut-sub-item">
-              <img src="square.png" alt="Icon 1">
-            </div>
-            <div class="shortcut-sub-item">
-              <img src="rectangle.png" alt="Icon 1">
-            </div>
-            <div class="shortcut-sub-item">
-              <img src="rectangle.png" alt="Icon 1">
-            </div>
-          </div>
-          <div class="shortcut-desc-container">666</div>
-        </div>-->
+        <!-- 动态生成的快捷链接 -->
     </div>
 </div>
+
+<!-- 文件夹展开模态框 -->
 <div id="shortcut-item-expand-list" class="shortcut-item-list-container">
     <div class="shortcut-item-list"></div>
 </div>
+
+<!-- 错误消息区域 -->
+<div id="error-container"></div>
 
 <script src="newtab.js"></script>
 </body>
