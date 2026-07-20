@@ -256,25 +256,47 @@
     "hide": false
   },
   {
-    "type": "link",
-    "desc": "毛泽东",
-    "url": "http://www.mzdbl.cn/maoxuan.html",
-    "icon": "img/ico/mao.gif",
-    "alt": "毛泽东",
-    "hide": false
+    "type": "dir",
+    "name": "书籍",
+    "hide": false,
+    "shortcuts": [
+      {
+        "type": "link",
+        "desc": "毛泽东",
+        "url": "http://www.mzdbl.cn/maoxuan.html",
+        "icon": "img/ico/mao.gif",
+        "alt": "毛泽东",
+        "hide": false
+      }
+    ]
   },
   {
-    "type": "link",
-    "desc": "ChatGPT",
-    "url": "https://chat.openai.com/auth/login",
-    "icon": "https://cdn.oaistatic.com/_next/static/media/favicon-32x32.be48395e.png",
-    "alt": "ChatGPT",
-    "hide": false
+    "type": "dir",
+    "name": "AI 工具",
+    "hide": false,
+    "shortcuts": [
+      {
+        "type": "link",
+        "desc": "ChatGPT",
+        "url": "https://chat.openai.com/auth/login",
+        "icon": "https://cdn.oaistatic.com/_next/static/media/favicon-32x32.be48395e.png",
+        "alt": "ChatGPT",
+        "hide": false
+      },
+      {
+        "type": "link",
+        "desc": "DeepSeek",
+        "url": "https://chat.deepseek.com/",
+        "icon": "https://fe-static.deepseek.com/chat/favicon.svg",
+        "alt": "DeepSeek",
+        "hide": false
+      }
+    ]
   },
   {
     "type": "link",
     "desc": "Kimi",
-    "url": "https://kimi.moonshot.cn/",
+    "url": "https://www.kimi.com/",
     "icon": "https://statics.moonshot.cn/kimi-chat/favicon.ico",
     "alt": "Kimi",
     "hide": false
@@ -305,34 +327,10 @@
   },
   {
     "type": "link",
-    "desc": "CCTV4",
-    "url": "https://tv.cctv.com/live/cctv4/",
-    "icon": "img/ico/cctv_favicon.ico",
-    "alt": "CCTV4",
-    "hide": false
-  },
-  {
-    "type": "link",
-    "desc": "世界各国网址大全",
-    "url": "https://www.world68.com/country.asp",
-    "icon": "img/ico/world68_favicon.ico",
-    "alt": "世界各国网址大全",
-    "hide": false
-  },
-  {
-    "type": "link",
     "desc": "YouTube",
     "url": "https://www.youtube.com",
     "icon": "https://www.youtube.com/s/desktop/3db4422d/img/favicon.ico",
     "alt": "YouTube",
-    "hide": false
-  },
-  {
-    "type": "link",
-    "desc": "华尔街日报",
-    "url": "https://www.wsj.com/",
-    "icon": "https://s.wsj.net/img/meta/wsj_favicon.svg",
-    "alt": "华尔街日报",
     "hide": false
   },
   {
