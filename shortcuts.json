@@ -16,6 +16,22 @@
     "hide": false
   },
   {
+    "type": "link",
+    "desc": "operating-system-of-life",
+    "url": "https://blog.o0o.moe/posts/the-operating-system-of-life/",
+    "icon": "https://www.devinone.com/favicon.svg",
+    "alt": "operating-system-of-life",
+    "hide": false
+  },
+  {
+    "type": "link",
+    "desc": "devinone",
+    "url": "https://www.devinone.com/",
+    "icon": "https://www.devinone.com/favicon.svg",
+    "alt": "devinone",
+    "hide": false
+  },
+  {
     "type": "dir",
     "name": "聚合热点排行榜",
     "hide": false,
