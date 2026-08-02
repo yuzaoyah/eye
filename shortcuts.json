@@ -195,6 +195,22 @@
       },
       {
         "type": "link",
+        "desc": "莱卡云",
+        "url": "https://www.lcayun.com/",
+        "icon": "img/ico/compshare.ico",
+        "alt": "莱卡云",
+        "hide": false
+      },
+      {
+        "type": "link",
+        "desc": "雨云",
+        "url": "https://app.rainyun.com/",
+        "icon": "img/ico/compshare.ico",
+        "alt": "雨云",
+        "hide": false
+      },
+      {
+        "type": "link",
         "desc": "青云",
         "url": "https://www.qingcloud.com/",
         "icon": "img/ico/qingyun.ico",
@@ -359,6 +375,22 @@
     "shortcuts": [
       {
         "type": "link",
+        "desc": "现代科研指北",
+        "url": "https://bookdown.org/yufree/sciguide/",
+        "icon": "img/ico/mao.gif",
+        "alt": "现代科研指北",
+        "hide": false
+      },
+      {
+        "type": "link",
+        "desc": "影响力大师：如何调动团队力量",
+        "url": "https://weread.qq.com/web/reader/a58321f07187fc6ea58958c",
+        "icon": "img/ico/mao.gif",
+        "alt": "影响力大师：如何调动团队力量",
+        "hide": false
+      },
+      {
+        "type": "link",
         "desc": "毛泽东",
         "url": "http://www.mzdbl.cn/maoxuan.html",
         "icon": "img/ico/mao.gif",
@@ -406,6 +438,14 @@
       },
       {
         "type": "link",
+        "desc": "Kai",
+        "url": "https://kaiyi.cool/",
+        "icon": "img/ico/book.jpg",
+        "alt": "Kai",
+        "hide": false
+      },
+      {
+        "type": "link",
         "desc": "竹山一叶",
         "url": "https://zsyyblog.com/",
         "icon": "img/ico/book.jpg",
@@ -420,6 +460,14 @@
     "url": "https://pck9as038u.feishu.cn/docx/JUxmdlVPMo3N5FxSX67cRlounTd",
     "icon": "img/ico/book.jpg",
     "alt": "课题",
+    "hide": false
+  },
+  {
+    "type": "link",
+    "desc": "策引",
+    "url": "https://www.myinvestpilot.com/",
+    "icon": "img/ico/book.jpg",
+    "alt": "策引",
     "hide": false
   },
   {
@@ -587,10 +635,10 @@
       },
       {
         "type": "link",
-        "desc": "贝贝下载",
-        "url": "https://bbdownloader.com/api/bilibili/",
+        "desc": "PeanutDL",
+        "url": "https://peanutdl.com/zh/bilibili",
         "icon": "img/ico/default/icon_v5.png",
-        "alt": "贝贝下载",
+        "alt": "PeanutDL",
         "hide": false
       },
       {
@@ -607,6 +655,14 @@
         "url": "https://github.cards/",
         "icon": "img/ico/github_cards.png",
         "alt": "GitHub Cards",
+        "hide": false
+      },
+      {
+        "type": "link",
+        "desc": "BitFree",
+        "url": "https://bitfree.cn/",
+        "icon": "img/ico/github_cards.png",
+        "alt": "BitFree",
         "hide": false
       }
     ]
