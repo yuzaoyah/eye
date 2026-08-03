@@ -17,10 +17,17 @@
   },
   {
     "type": "link",
+<<<<<<< Updated upstream
     "desc": "院校调研",
     "url": "https://pck9as038u.feishu.cn/docx/YODhdyd0boF9X3xp8GYcNYRmn8f",
     "icon": "img/ico/school_logo.png",
     "alt": "院校调研",
+=======
+    "desc": "模型对比",
+    "url": "https://pck9as038u.feishu.cn/wiki/LDnpwRBjyiSLImka45rcCrt4nDd",
+    "icon": "img/ico/model_compare_logo.svg",
+    "alt": "模型对比",
+>>>>>>> Stashed changes
     "hide": false
   },
   {
