@@ -75,85 +75,6 @@
         "icon": "img/ico/default/icon_v2.png",
         "alt": "HelloGitHub",
         "hide": false
-      },
-      {
-        "type": "link",
-        "desc": "果汁排行榜",
-        "url": "http://www.guozhivip.com/rank/index.html",
-        "icon": "img/ico/default/icon_v2.png",
-        "alt": "果汁排行榜",
-        "hide": false
-      },
-      {
-        "type": "link",
-        "desc": "导航文库",
-        "url": "https://docs.apachecn.org/",
-        "icon": "img/ico/default/icon_v2.png",
-        "alt": "导航文库",
-        "hide": false
-      },
-      {
-        "type": "link",
-        "desc": "Jupyter AI",
-        "url": "https://zglg.work",
-        "icon": "img/ico/default/icon_v2.png",
-        "alt": "Jupyter AI",
-        "hide": false
-      },
-      {
-        "type": "link",
-        "desc": "小报童精选",
-        "url": "https://www.dafeiyang.cn/xbt/",
-        "icon": "img/ico/default/icon_v2.png",
-        "alt": "小报童精选",
-        "hide": false
-      }
-    ]
-  },
-  {
-    "type": "dir",
-    "name": "综合聚合导航",
-    "hide": false,
-    "shortcuts": [
-      {
-        "type": "link",
-        "desc": "创造狮导航",
-        "url": "https://chuangzaoshi.com/index",
-        "icon": "img/ico/default/icon_v6.png",
-        "alt": "创造狮导航",
-        "hide": false
-      },
-      {
-        "type": "link",
-        "desc": "产品经理导航",
-        "url": "https://www.pmbaobao.com/",
-        "icon": "img/ico/default/icon_v6.png",
-        "alt": "产品经理导航",
-        "hide": false
-      },
-      {
-        "type": "link",
-        "desc": "学吧导航",
-        "url": "https://www.xue8nav.com/",
-        "icon": "img/ico/default/icon_v6.png",
-        "alt": "学吧导航",
-        "hide": false
-      },
-      {
-        "type": "link",
-        "desc": "AIGO 工具导航",
-        "url": "https://www.aigc.cn/",
-        "icon": "img/ico/aigc_cn_logo.png",
-        "alt": "AIGO 工具导航",
-        "hide": false
-      },
-      {
-        "type": "link",
-        "desc": "addog",
-        "url": "https://www.addog.vip/",
-        "icon": "img/ico/default/icon_v6.png",
-        "alt": "addog",
-        "hide": false
       }
     ]
   },
@@ -384,6 +305,14 @@
     "alt": "百度翻译",
     "hide": false
   },
+      {
+        "type": "link",
+        "desc": "剑桥字典",
+        "url": "https://dictionary.cambridge.org/",
+        "icon": "img/ico/default/icon_v5.png",
+        "alt": "剑桥字典",
+        "hide": false
+      },
   {
     "type": "dir",
     "name": "书籍阅读",
@@ -420,14 +349,6 @@
         "icon": "https://image.woshipm.com/favicon.ico",
         "alt": "人人都是产品经理",
         "hide": false
-      },
-      {
-        "type": "link",
-        "desc": "什么值得读",
-        "url": "https://shenmezhidedu.com/",
-        "icon": "https://www.shenmezhidedu.com/wp-content/uploads/2020/02/cropped-2020022005321023-32x32.png",
-        "alt": "什么值得读",
-        "hide": false
       }
     ]
   },
@@ -442,14 +363,6 @@
         "url": "https://me.yuzaoyah.site",
         "icon": "img/ico/yuzaoyah.jpg",
         "alt": "予早 Blog",
-        "hide": false
-      },
-      {
-        "type": "link",
-        "desc": "荣顶",
-        "url": "https://www.fedtop.com",
-        "icon": "img/ico/book.jpg",
-        "alt": "荣顶",
         "hide": false
       },
       {
@@ -488,37 +401,6 @@
   },
   {
     "type": "dir",
-    "name": "懂点法",
-    "hide": false,
-    "shortcuts": [
-      {
-        "type": "link",
-        "desc": "中华人民共和国社会保险法",
-        "url": "https://www.gov.cn/flfg/2010-10/28/content_1732964.htm",
-        "icon": "img/ico/default/icon_v2.png",
-        "alt": "中华人民共和国社会保险法",
-        "hide": false
-      },
-      {
-        "type": "link",
-        "desc": "中华人民共和国劳动合同法",
-        "url": "https://www.gov.cn/jrzg/2007-06/29/content_667720.htm",
-        "icon": "img/ico/default/icon_v2.png",
-        "alt": "中华人民共和国劳动合同法",
-        "hide": false
-      },
-      {
-        "type": "link",
-        "desc": "中国法律服务网",
-        "url": "https://www.12348.gov.cn/",
-        "icon": "img/ico/default/icon_v2.png",
-        "alt": "中国法律服务网",
-        "hide": false
-      }
-    ]
-  },
-  {
-    "type": "dir",
     "name": "问答",
     "hide": false,
     "shortcuts": [
@@ -528,14 +410,6 @@
         "url": "https://www.chongbuluo.com/",
         "icon": "img/ico/default/icon_v2.png",
         "alt": "虫部落",
-        "hide": false
-      },
-      {
-        "type": "link",
-        "desc": "wikiHow",
-        "url": "https://zh.wikihow.com/",
-        "icon": "img/ico/default/icon_v2.png",
-        "alt": "wikiHow",
         "hide": false
       }
     ]
@@ -567,14 +441,6 @@
         "url": "https://sms-activate.guru/cn",
         "icon": "img/ico/default/icon_v2.png",
         "alt": "接码平台",
-        "hide": false
-      },
-      {
-        "type": "link",
-        "desc": "词云文字制作",
-        "url": "https://www.ciyunwenzi.com/web/ciyun",
-        "icon": "img/ico/default/icon_v2.png",
-        "alt": "词云文字制作",
         "hide": false
       },
       {
@@ -611,34 +477,10 @@
       },
       {
         "type": "link",
-        "desc": "Logo设计",
-        "url": "https://www.logoko.com.cn/",
-        "icon": "img/ico/default/icon_v2.png",
-        "alt": "Logo设计",
-        "hide": false
-      },
-      {
-        "type": "link",
-        "desc": "SimilarWeb",
-        "url": "https://www.similarweb.com/",
-        "icon": "img/ico/default/icon_v3.png",
-        "alt": "SimilarWeb",
-        "hide": false
-      },
-      {
-        "type": "link",
         "desc": "轻松传",
         "url": "https://easychuan.cn/",
         "icon": "img/ico/default/icon_v5.png",
         "alt": "轻松传",
-        "hide": false
-      },
-      {
-        "type": "link",
-        "desc": "剑桥字典",
-        "url": "https://dictionary.cambridge.org/",
-        "icon": "img/ico/default/icon_v5.png",
-        "alt": "剑桥字典",
         "hide": false
       },
       {
