@@ -13,9 +13,7 @@
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
-      "16": "/img/ico/default/icon_v4.png",
-      "48": "/img/ico/default/icon_v4.png",
-      "128": "/img/ico/default/icon_v4.png"
+      "96": "img/ico/default/icon_v2.ico"
     }
   }
 }
